@@ -1,58 +1,151 @@
 {
     "blades" : [
         {
-           "link" : "Top",
+           "link" : "Intro",
             "content" : [
                 {
                     "tag": "h3",
-                    "copy": "Welcome...I was Kyle" 
+                    "copy": "The Turkey Trot Thing we are doing " 
+                }
+            ]
+        },
+        {
+            "link" : "Details",
+            "content":[
+                {
+                    "tag": "h3",
+                    "copy": "Event Details"
                 },
                 {
                     "tag": "p",
-                    "copy": "My story is simple, I am a simple man that was born on the wild streets of El Dorado.  In my youth I befrended a magical llama named Alex.  That llama would eventually betray me and leave me for dead.  This is my story."
+                    "copy": "Everyone pays $25 to contribute to a pot that will be used by the turkey to open a tab."
+                }
+            ]
+            
+        },
+        {
+            "link" : "Bar List",
+            "content":[
+                {
+                    "tag": "h3",
+                    "copy": "The Potential Roosts"
                 },
                 {
-                    "tag": "img",
-                    "source": "https://image.shutterstock.com/z/stock-photo-happy-young-man-in-blue-sweatshirt-on-white-background-winter-season-1502912831.jpg"
-                }
-            ]
-        },
-        {
-            "link" : "Skills",
-            "content":[
-                {
-                    "tag": "h3",
-                    "copy": "Tech I am familiar with"
-                }
-            ]
-            
-        },
-        {
-            "link" : "Experience",
-            "content":[
-                {
-                    "tag": "h3",
-                    "copy": "Field Related Work Experience"
-                }
-            ]
-            
-        },
-        {
-            "link" : "Projects",
-            "content":[
-                {
-                    "tag": "h3",
-                    "copy": "My Projects"
-                }
-            ]
-            
-        },
-        {
-            "link" : "Contact Me",
-            "content":[
-                {
-                    "tag": "h3",
-                    "copy": "Get Ahold of Me"
+                    "tag": "ul",
+                    "copy": [
+                        {
+                            "tag": "li",
+                            "copy": "amber"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Belltown Pizza"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Black Bottle"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Black Cat"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Buckley's"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Crocodile Backbar"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Cursed Oak"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Cyclops"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Test"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Jupiter Bar"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Lava Lounge"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Local 360"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Mr. Darcy's"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Navy Strength"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Neon Boots"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "No Anchor"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Ohana"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Penny Royal"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Queen City"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Rabbit Hole"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Rob Roy"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Roquette"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Screwdriver Bar"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Shorty's"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Some Random Bar"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "The Rendesvous"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "The Whisky Bar"
+                        },
+                        {
+                            "tag": "li",
+                            "copy": "Wakefield"
+                        }
+                    ]
                 }
             ]
         }
