@@ -1,0 +1,14 @@
+{
+  "name": "turkey",
+  "version": "1.0.0",
+  "description": "Stupid page for stupid event",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Van Bergen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
