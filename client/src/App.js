@@ -1,26 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import axios from 'axios';
+import Blade from './components/blade'
+import NavBlock from './components/NavBlock'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = { data: {} }
+
+  mapBlades(){
+    return this.state.data.blades.map( (blade, i) => (
+      <Blade data={blade} key={i} />
+    ))
+  }
+
+  componentDidMount() {
+    axios.get('/data').then( (res) => {
+      this.setState( {data: res.data} );
+    });
+  }
+
+  render(){
+    let renderBlades = this.state.data.blades ? this.mapBlades() : '';
+    return (
+      <div className="App Container">
+          <NavBlock links={this.state.data.blades} />
+          {renderBlades}
+      </div>
+    );
+  }
 }
 
 export default App;
