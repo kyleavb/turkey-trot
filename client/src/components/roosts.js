@@ -5,7 +5,7 @@ class roosts extends Component {
     render(){
 
         return(
-            <div className={`roosts info-blade`}>
+            <div id="roosts" className={` info-blade`}>
                 <h1>Important Information </h1>
                 <ul>
                     <li>
@@ -18,7 +18,7 @@ class roosts extends Component {
                         <p>Playing Area: Virginia Ave to Cedar Ave, 1st and 2nd Ave.</p>
                     </li>
                     <li>
-                        <p>Approved Bar List: <a href="https://goo.gl/maps/7mbeiJVSsVy6tZnj7" target="_blank">https://goo.gl/maps/7mbeiJVSsVy6tZnj7</a></p>
+                        <p>Approved Bar List: <a href="https://goo.gl/maps/7mbeiJVSsVy6tZnj7" target="_blank">Google List</a></p>
                     </li>
                 </ul>
             </div>

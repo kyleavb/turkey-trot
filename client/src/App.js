@@ -24,7 +24,8 @@ class App extends Component {
     let renderBlades = this.state.data.blades ? this.mapBlades() : '';
     return (
       <div className="App Container">
-          <NavBlock links={this.state.data.blades} />
+          {/* <NavBlock /> */}
+          <h1 id="top">TURKEY DAY IS UPON US!</h1>
           <Intro />
           <Details />
           <Roosts />

@@ -20,14 +20,6 @@ class NavBlock extends Component {
         this.setState( {menuToggle: !this.state.menuToggle} );
     }
 
-    mapLinks = () => {
-        return this.props.links.map( (item, i) => (
-            <a key={i} href={`#${item.link}`}>
-                <li >{item.link}</li>
-            </a>
-        ))  
-    }
-
     render(){
         let linkCreate = this.props.links ? this.mapLinks() : '';
  
@@ -41,7 +33,15 @@ class NavBlock extends Component {
                         <p className="menuText">{this.state.menuToggle ? "Menu" : "Exit"}</p>
                     </div>
                     <ul className="linkBar">
-                        {linkCreate}
+                        <li>
+                            <a href="#intro">Intro</a>
+                        </li>
+                        <li>
+                            <a href="#details">Game Description</a>
+                        </li>
+                        <li>
+                            <a href="#roosts">More Information</a>
+                        </li>
                     </ul>
                 </div>
                 {/* <h3>Kyle Van Bergen</h3> */}

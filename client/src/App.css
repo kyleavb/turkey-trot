@@ -8,143 +8,54 @@
 */
 
 .App {
-  margin: 0 5em;
+  margin: 0 10%;
+  
 }
+
 body {
-  background: #F8F7FF;
-  color: #102542;
+  background: rgb(0, 0, 0);
+  color: white;
   margin: 0px;
+  overflow: scroll;
+  
+}
+
+iframe{
+  width: 80%;  
+  
+}
+ol li{
+  font-weight: 500;
+}
+#top{
+  margin-top: 10%;
 }
 
 .info-blade{
-  min-height: 66vh;
-  width: 100%;
-  margin: 0 0 40px 0;
-  padding: 60px 0 0 0;
-  /* text-align: center; */
-  /* border: 1px solid black; */
+  min-height: 100%;
+  padding: 6% 0 0 0;
 }
 
-.info-blade:first-of-type{
-  margin-top: 60px;
-}
-
-.navBar{
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row-reverse;
-  align-items: initial;
-}
-
-.navMenu{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row-reverse;
-  text-align: center;  
-  border-radius: 50px;
-  /* opacity: .5; */
-}
-
-.navMenu.change{
-  background: rgba(248, 247, 255, .90);
-}
-
-.menuButton{
+h1{
+  color: #60ddf3;
   text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  z-index: 100;
-  margin-top: 1em;
-  margin-right: 50px;
+  font-weight: 500;
 }
 
-.menuButton div{
-  width: 35px;
-  height: 2px;
-  background-color: #F87060;
-  margin: 6px auto;
-  transition: 0.4s;
+h3,h5{
+  color: rgb(221, 59, 41);
   
 }
 
-.menuButton p{
-  margin: 0 0;
-}
-.menuButton:hover div{
-  transform: translateY(-2px)
+h4{
+  margin: 3em 0;
+  color: rgb(243, 74, 55);
 }
 
-.menuButton:hover p{
-  transform: translateY(2px)
-}
-
-.menuText{
-  margin-top: -8px;
-  /* transition: 0.4s; */
-  opacity: 1;
+p{
+  font-family: 'Merriweather', serif;
+  font-size: 1.3em;
+  font-weight: 300;
+  margin: 1.5em 0;
   
-}
-.change .menuText{
-  animation: fade .2s normal;
-}
-@keyframes fade {
-  0%,100% { opacity: 0 }
-  50% { opacity: 1 }
-}
-
-
-.change .menuBar.one {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-4px, 6px) ;
-}
-
-.change .menuBar.two {
-  opacity: 0;
-}
-
-.change .menuBar.three {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-5px, -8px) ;
-}
-
-.linkBar{
-  /* background-color: #F8F7FF; */
-  opacity: 0;
-  transition: 0.4s;
-  margin: 0;
-  padding: 0;
-}
-
-.linkBar li{
-  text-decoration: none;
-  display: inline-block;
-  padding: 0 25px;
-}
-
-.linkBar a:not(:first-child){
-  border-left: 1px #102542 solid;
-}
-.linkBar a li{
-  z-index: -100;
-  color: #F87060;
-  text-decoration: none;
-}
-
-.linkBar a:hover li{
-  color: rgba(248, 111, 96, 0.774);
-  text-decoration: underline;
-}
-
-.change .linkBar{
-  opacity: 1;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }

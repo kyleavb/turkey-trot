@@ -4,9 +4,9 @@ class details extends Component {
     render(){
 
         return(
-            <div className={`details info-blade`}>
+            <div id="details" className={` info-blade`}>
                 <div>
-                    <h1>Group Rules And Decorum</h1>
+                    <h3>Group Rules And Decorum</h3>
                     <div>
                         <p>First things first, a turkey must be selected. Since this is the only day of the year that being a turkey (henceforth known as The Turkey) is advantageous, a contest of knowledge, strength, and overall ~coolness~ will be administered to select The Turkey. Everyone not The Turkey is now a fox (mere common noun fox, suck it) and you can self-organize yourself into teams (henceforth known as skulks cuz it was the coolest collective noun for foxes.)</p>
                     </div>
@@ -18,11 +18,10 @@ class details extends Component {
                     </div>
                 </div>
                 <div>
-                    <h2>So you happen to be The Turkey…</h2>
+                    <h4>🦃So you happen to be The Turkey…🦃</h4>
+                    <p>You wear this</p>
+                    <iframe src="https://www.youtube.com/embed/jz9P9gZDDeE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <ol>
-                        <li>
-                            <p>You MUST choose a roost from the pre-approved list.</p>
-                        </li>
                         <li>
                             <p>You MUST sit at the bar (of the roost.) Not in a hidden booth, not in the bathroom. At the bar.</p>
                         </li>
@@ -42,13 +41,10 @@ class details extends Component {
                             <p>You CANNOT say you’re playing a game. Give your bartender // friendly roost patron // the demons you carry for eternity // whomever a fun little fib as to why you’re dressed as a turkey.</p>
                         </li>
                         <li>
-                            <p>NO SHOTS.</p>
+                            <p>Maybe a shot or two, but try to be respectful of the group. Keep top shelf orders to a minimum, and no buying drinks for those not in the group.</p>
                         </li>
                         <li>
-                            <p>OKAY maybe a shot or two, but try to be respectful of the group. Keep top shelf orders to a minimum, and no buying drinks for those not in the group.</p>
-                        </li>
-                        <li>
-                            <p>YOU ARE IN CHARGE OF THE TAB. This means keeping an eye on the amount spent. Everyone else is spending more than you, so any overages are your responsibility. Remember, WE WILL be leaving a 20% tip that will come from the group tab. So the amount we have to spend = TAB / 1.2.</p>
+                            <p>Try and keep an eye on the amount spent. Everyone else is spending more than you, so any overages are your responsibility. Remember, WE WILL be leaving a 20% tip that will come from the group tab. So the amount we have to spend = TAB / 1.2.</p>
                         </li>
                         <li>
                             <p>Whenever someone says the word “turkey,” give them your best GOBBLE.</p>
@@ -56,7 +52,7 @@ class details extends Component {
                     </ol>
                 </div>
                 <div>
-                    <h2>So you fucked up and you’re a fox…</h2>
+                    <h4>🦊So you fucked up and you’re a fox…🦊</h4>
                     <ol>
                         <li>
                             <p>You MUST stay together with your skulk. Foxes are pack animals (...right? No? These foxes are...) No scouting ahead, no lingering behind.</p>
@@ -73,10 +69,18 @@ class details extends Component {
                         </li>
                         <li>
                             <p>Each roost can only fit one skulk. If two skulks happen to find themselves in the same roost, they must engage in a good ol’ fashioned TURF WAR.</p>
-                            <p>The first skulk to have a fox shout “Too many foxes in this roost!” gets to decide whether…</p>
-                            <p><stgrong>The skulk at the roost first must leave. Chug your drinks and skedaddle!</stgrong></p>
-                            <h3>Or</h3>
-                            <p><stgrong>The skulk that just entered must leave. Enjoy your free pass and keep searching!</stgrong></p>
+                            <ul>
+                                <li>
+                                    <p>The first skulk to have a fox shout “Too many foxes in this rooster hole!” gets to decide whether…</p>
+                                </li>
+                                <li>
+                                    <p>The skulk at the roost first must leave. Chug your drinks and skedaddle!</p>
+                                </li>
+                                <h5>Or</h5>
+                                <li>
+                                    <p>The skulk that just entered must leave. Enjoy your free pass and keep searching!</p>
+                                </li>
+                            </ul>
                         </li>
                         <li>
                             <p>Once your skulk finds The Turkey, you can KILL AND EAT THEIR FLESH, IT IS YOUR JUST REWARD or you can start drinking off the shared tab, your call.</p>

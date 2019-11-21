@@ -7,8 +7,8 @@ class intro extends Component {
     render(){
 
         return(
-            <div className={`intro info-blade`}>
-                <h1>TURKEY DAY IS UPON US!</h1>
+            <div id="intro" className={`info-blade`}>
+                <h3>Introduction</h3>
                 <div>
                     <p>No, not that Turkey Day. The better one. The one that involves excessive drinking, avoiding those you hold dear, and a fully stuffed turkey.</p>
                 </div>
@@ -20,6 +20,12 @@ class intro extends Component {
                 </div>
                 <div>
                     <p>We (Dumb Marketing Boy and Even Dumber Website Boy) are excited to have you onboard for this wonderful occasion, and let us be the first to wish you Happy Hunting!</p>    
+                </div>
+                <h3>What You Need</h3>
+                <div>
+                    <p>A can drink attitude!</p>
+                    <p>$25 Venmo to @danheyward before Thursday - We thought a pre-paid visa would be easier for the bar</p>
+                    <p>Some good vibes</p>
                 </div>
             </div>
         )
