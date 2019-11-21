@@ -13,6 +13,14 @@ class blade extends Component {
                 case 'ul':
                     formattedEle = React.createElement( elementTag, { key:i },  this.parseData( data['copy'] ) )
                     break;
+                case 'li':
+                    
+                    if( data.copy.tag === 'a' ){
+                        console.log( 'Object' )
+                    }else{
+                        console.log( 'Not Object' )
+                    }
+                    break;
                 default:
                     formattedEle = React.createElement(elementTag, { key: i }, data['copy'])
             }

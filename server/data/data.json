@@ -35,27 +35,45 @@
                     "copy": [
                         {
                             "tag": "li",
-                            "copy": "amber"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "amber"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Belltown Pizza"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Belltown Pizza"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Black Bottle"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Black Bottle"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Black Cat"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Black Cat"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Buckley's"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Buckley's"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Crocodile Backbar"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Crocodile Backbar"
+                            }
                         },
                         {
                             "tag": "li",
@@ -63,35 +81,59 @@
                         },
                         {
                             "tag": "li",
-                            "copy": "Cyclops"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Cyclops"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Test"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Test"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Jupiter Bar"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Jupiter Bar"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Lava Lounge"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Lava Lounge"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Local 360"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Local 360"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Mr. Darcy's"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Mr. Darcy's"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Navy Strength"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Navy Strength"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Neon Boots"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Neon Boots"
+                            }
                         },
                         {
                             "tag": "li",
@@ -99,51 +141,87 @@
                         },
                         {
                             "tag": "li",
-                            "copy": "Ohana"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Ohana"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Penny Royal"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Penny Royal"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Queen City"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Queen City"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Rabbit Hole"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Rabbit Hole"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Rob Roy"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Rob Roy"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Roquette"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Roquette"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Screwdriver Bar"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Screwdriver Bar"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Shorty's"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Shorty's"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Some Random Bar"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Some Random Bar"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "The Rendesvous"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "The Rendesvous"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "The Whisky Bar"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "The Whisky Bar"
+                            }
                         },
                         {
                             "tag": "li",
-                            "copy": "Wakefield"
+                            "copy":{
+                                "tag": "a",
+                                "copy": "Wakefield"
+                            }
                         }
                     ]
                 }
